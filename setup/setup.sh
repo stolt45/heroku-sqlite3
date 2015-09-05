@@ -4,7 +4,7 @@ echo "Adding sqlite3 to Gemfile"
 echo "gem 'sqlite3'" >> ~/Gemfile
 
 echo "Setting up bundler config"
-cp bundle_config ~/.bundle/config
+cp ~/heroku-sqlite3/setup/bundle_config ~/.bundle/config
 
 echo "Running bundle install to build the sqlite3 gem"
 bundle install
