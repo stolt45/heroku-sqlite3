@@ -14,7 +14,7 @@ Once this is in place you can run the setup script **FROM INSIDE YOUR DYNO** and
 
 Yup it's a shell script, you might wanna see what it does before blindly running it.
 
-# Other Shit to know
+### Other Shit to know
 
 It's compatible with the default ruby buildpack. As such, you need to remove `sqlite3` from the production group in your Gemfile or the push will fail. The setup script adds it back in after the dyno is running.
 
